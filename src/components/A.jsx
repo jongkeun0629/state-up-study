@@ -1,12 +1,12 @@
 import C from "./C";
 import D from "./D";
 
-const A = ({ count, increase }) => {
+const A = () => {
   return (
     <div className="bg-red-400 m-12 p-12">
       A
-      <C count={count} />
-      <D increase={increase} />
+      <C />
+      <D />
     </div>
   );
 };
